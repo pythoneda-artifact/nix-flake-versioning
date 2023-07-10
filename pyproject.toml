@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pythoneda-artifact-nix-flakes-versioning"
+name = "pythoneda-artifact-nix-flake-versioning"
 version = "0.0.1a1"
 description = "Versioning of nix flakes in artifact space"
 authors = ["rydnr <github@acm-sl.org>"]
 readme = "README.md"
-homepage = "https://github.com/pythoneda-artifact/nix-flakes-versioning"
-packages = [{include = "pythonedaartifactnixflakesversioning"}]
+homepage = "https://github.com/pythoneda-artifact/nix-flake-versioning"
+packages = [{include = "pythonedaartifactnixflakeversioning"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
