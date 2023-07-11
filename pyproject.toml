@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pythoneda-artifact-nix-flake-versioning"
-version = "0.0.1a1"
+version = "0.0.1a2"
 description = "Versioning of nix flakes in artifact space"
 authors = ["rydnr <github@acm-sl.org>"]
 readme = "README.md"
@@ -9,6 +9,7 @@ packages = [{include = "pythonedaartifactnixflakeversioning"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pythoneda-artifact-event-versioning = "^0.0.1a1"
 pythoneda-artifact-shared-nix-flakes = "^0.0.1a1"
 pythoneda-base = "^0.0.1a16"
 
